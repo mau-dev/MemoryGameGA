@@ -52,7 +52,7 @@ function checkForMatch() {
  }
 
 
-// function to console what is flipper and to store the card rank in the cardsInPlay array
+// function to console what is flipped and to store the card rank in the cardsInPlay array
 
 var flipCard = function (cardId) {
 	console.log("User flipped " + cards[cardId].rank);
