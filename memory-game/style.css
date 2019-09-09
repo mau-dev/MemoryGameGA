@@ -1,39 +1,52 @@
 body {
+
 	text-align: center;
 	margin: 0;
 }
+
 header {
+
 	background-color: #F15B31;
 	color: #FFFFFF;
 	padding: 30px 20px;
 }
 
 main {
+
 	width: 850px;
-	margin: 35px auto;
-}
-img {
-	margin: 40px 8px;
+	margin: 35px auto 0 auto;
+	padding-bottom: 20px;
 }
 
-.head-title {
+img {
+
+	margin: 20px 8px 10px 8px;
+}
+
+h1 {
+
 	font-family: Raleway, sans serif;
-	color: #0D2C40;
+	/*color: #0D2C40;*/
 	letter-spacing: 1px;
 	font-weight: 400;
 	font-size: 45px;
 	margin: 0;
 }
 
-.subtitle {
+h2 {
+
 	font-family: Raleway, sans serif;
 	color: #0D2C40;
 	letter-spacing: 1px;
 	font-weight: 600;
 	font-size: 20px;
 }
+h1, h2 {
+	text-transform: uppercase;
+}
 
 nav{
+
 	font-family: Raleway, sans serif;
 	color: #F15B31;
 	letter-spacing: 1px;
@@ -44,24 +57,51 @@ nav{
 	padding: 20px 0;
 
 }
+
 nav a {
+
 	margin: 0 20px;
 	color: #ffffff;
 	text-decoration: none;
 	border-bottom: 2px solid transparent;
+	text-transform: uppercase;
 }
+
 nav a:hover {
 	border-bottom: 2px solid white;
 }
 
 .instructions-paragraph {
+
 	font-family: "Droid Serif";
 	line-height: 26px;
 	font-size: 18px;
 }
-
+.score-board {
+	height: 20px;
+	margin: 0 auto 10px auto;
+	padding: 0;
+	clear: both;
+}
+.score-board ul li {
+	text-decoration: none;
+	display: inline-block;
+	float:left;
+	width: 33%;
+	margin: 0;
+	padding: 0;
+}
+.score-board p {
+	margin: 0;
+	padding: 0;
+}
+/*button 
+{
+	margin: 1em;
+}*/
 
 footer {
+
 	text-transform: uppercase;
 	padding: 0 20px;
 	background-color: #0D2C40;
@@ -69,14 +109,21 @@ footer {
 	font-size: 18px;
 	letter-spacing: 0.8em;
 	font-weight: 500;
+
 }
 .paragraph {
+
 	float: left;
+
 }
 .message {
+
 	float: right;
+
 }
+
 .clearfix:after {
+
 visibility: hidden;
 display: block;
 content: " ";
@@ -84,7 +131,9 @@ clear: both;
 height: 0;
 font-size: 0;
 }
-.name {
+
+.name 
+{
 	color: #F15B31;
 	font-weight: 700;
 }
